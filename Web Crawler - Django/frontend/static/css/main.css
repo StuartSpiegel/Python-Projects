@@ -1,0 +1,38 @@
+/**
+This will be the main style document for the front end of the web crawler.
+**/
+
+html, body {
+    height: 100%;
+}
+
+
+body {
+    font-family: "Open Sans", sans-serif;*;
+    font-weight: 400;
+    background-color: #f1f1ea;
+    padding:2em;
+}
+/* Set the default text area to be a plain white background*/
+textarea {
+    background-color: #ffffff;
+    color: #000000;
+}
+/* Mark the top level header with a border padding of 10px  */
+.s-m-t-2 {
+    margin-top: 10px !important;
+}
+/* Web Kit adaptations for browser specific sizing */
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    line-height:150px;
+    padding-left:235px;
+}
+::-webkit-input-placeholder { /* Webkit */
+    line-height:150px;
+    padding-left:235px;
+}
+:-ms-input-placeholder { /* IE */
+    line-height:150px;
+    padding-left:235px;
+}
+
