@@ -1,5 +1,5 @@
 Django==2.2.13
 requests==2.20.0
 beautifulsoup4==4.6.3
-lxml==4.2.5
+lxml==4.6.5
 ordered-set==3.0.2
